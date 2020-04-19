@@ -12,7 +12,6 @@ import javax.ws.rs.core.Response;
 public class PingController {
   
   @GET
-  @Path("/")
   @Produces(value = MediaType.APPLICATION_JSON)
   public Response getPing() {
     return Response.ok("The app is working").build();

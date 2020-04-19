@@ -46,6 +46,15 @@
       <groupId>javax</groupId>
       <version>8.0</version>
     </dependency>
+    <!--    Eclipse Microprofile-->
+    <dependency>
+      <artifactId>microprofile</artifactId>
+      <groupId>org.eclipse.microprofile</groupId>
+      <scope>provided</scope>
+      <type>pom</type>
+      <version>3.2</version>
+    </dependency>
+    <!--    Eclipse Microprofile-->
     <dependency>
       <artifactId>junit</artifactId>
       <groupId>junit</groupId>
@@ -56,7 +65,7 @@
   <groupId>dev.varij</groupId>
   <modelVersion>4.0.0</modelVersion>
 
-  <name>javaee-sample Maven Webapp</name>
+  <name>javaee-sample</name>
   <packaging>war</packaging>
 
   <properties>
